@@ -1,0 +1,5 @@
+services:
+  sgdk:
+    image: ghcr.io/stephane-d/sgdk
+    volumes:
+      - .:/src
