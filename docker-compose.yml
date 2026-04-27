@@ -1,5 +1,5 @@
 services:
   sgdk:
-    image: ghcr.io/stephane-d/sgdk
+    image: registry.gitlab.com/doragasu/docker-sgdk:v2.10
     volumes:
-      - .:/src
+      - .:/m68k
